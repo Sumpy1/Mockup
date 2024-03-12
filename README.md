@@ -31,14 +31,14 @@ The following STRETCH features are implemented:
 ## Chosen Screenshot
 
 I have chosen to duplicate the following layout from the **LinkedIN** app:
+![430382739_953866949658698_2801958303353945896_n](https://github.com/Sumpy1/Mockup/assets/130939290/125b6473-387a-4383-9190-e71171141357)
 
-![Screenshot](https://imgur.com/a/43E2A7S)
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-![GIF](https://imgur.com/a/P53HoMh.gif)
+<img src='https://imgur.com/a/P53HoMh.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **KAP**
 
