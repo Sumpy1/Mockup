@@ -32,13 +32,13 @@ The following STRETCH features are implemented:
 
 I have chosen to duplicate the following layout from the **LinkedIN** app:
 
-<img src='https://imgur.com/a/43E2A7S' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
+![Screenshot](https://imgur.com/a/43E2A7S)
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://imgur.com/a/P53HoMh' title='Video Demo' width='' alt='Video Demo' />
+![GIF](https://imgur.com/a/P53HoMh.gif)
 
 GIF created with **KAP**
 
