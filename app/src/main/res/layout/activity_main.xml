@@ -45,11 +45,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-thin"
         android:text="By clicking Agree and Join or Continue, you agree to Linkedin's User Agreement, Privacy Policy and Cookie Policy."
         android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/con" />
 
@@ -57,7 +58,7 @@
         android:id="@+id/login"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Join now"
+        android:text="Agree and Join"
         android:layout_marginTop="60dp"
         android:backgroundTint="@color/link_blue"
         app:layout_constraintTop_toBottomOf="@id/con"
@@ -81,7 +82,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/google"
-        android:text="Continue with google"
+        android:text="Continue with Google"
         android:textColor="@color/black"
         android:backgroundTint="@color/white"
         app:layout_constraintTop_toBottomOf="@id/Join_now"
@@ -89,13 +90,28 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
+        android:id="@+id/onetime"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/white"
+        android:text="Sign in With a one-time link"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Join_now" />
+
+    <Button
         android:id="@+id/Sign_in"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/white"
         android:text="Sign in"
         android:textColor="@color/link_blue"
-        android:backgroundTint="@color/white"
-        app:layout_constraintTop_toBottomOf="@id/google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/google" />
 </androidx.constraintlayout.widget.ConstraintLayout>
